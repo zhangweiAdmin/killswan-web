@@ -1,0 +1,30 @@
+.aside {
+    width: 250px;
+    height: 100%;
+    background: #001529;
+    position: relative;
+}
+.aside-crol {
+    width: 0px;
+    height: 0px;
+    border: 30px solid transparent;
+    border-left-color: #001529 ;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    z-index: 300;
+    opacity: .5;
+}
+.children {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+.close {
+    width: 0px;
+    transition: all .8s ease-in-out;
+}
+.open {
+    width: 250px;
+    transition: all .8s ease-in-out;
+}

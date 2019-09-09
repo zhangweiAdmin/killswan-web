@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: #f5f5f5;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}

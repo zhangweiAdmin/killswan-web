@@ -1,0 +1,13 @@
+.navis-title {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+}
+.navis-list {
+    display: flex;
+    flex: 1;
+    overflow: auto;
+}
